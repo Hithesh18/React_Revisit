@@ -6,6 +6,7 @@ import Button from "./Button/Button"
 import Student from "./Student"
 import UserGreeting from "./UserGreeting"
 import List from "./List"
+import MyComponent from "./MyComponent"
 
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
     <UserGreeting isLoggedIn={false} username="Hithesh"/>
  */}
 
- <List/>
- <Button/>
+ {/* <List/>
+ <Button/> */}
+ <MyComponent/>
 
 
 
