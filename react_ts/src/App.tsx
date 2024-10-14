@@ -5,9 +5,10 @@ function App() {
   
 
   return (
-   
+   <>
      <Message/>
-    
+     <Message/>
+     </>
   )
 }
 
